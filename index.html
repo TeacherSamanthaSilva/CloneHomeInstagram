@@ -3,11 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale='=1,user-scalable=no">
     <link rel="stylesheet" type="texr/css" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.png">
     <title>Clone Home Instagram</title>
 </head>
 <body>
-    
+    <main>
+        <div id="main-container">
+            <div id="banner-container">
+                <!-- banner lateral -->
+                <img src="images/imagem_cel_exterior.png" alt="foto de dois celulares um preto e um branco onde o preto está atrás do branco">
+
+            </div>
+            <div id="form-container">
+                <!-- formulário de login -->
+                <div id="form-box">
+                    <img id="logo-insta" src="images/logo_instagram.png" alt="logomarca do Instagram">
+                    <form id="login-form">
+                        <input type="text" name="username" placeholder="nome de usuário ou email">
+                        <input type="password" placeholder="senha">
+                        <input type="submit" value="enviar">
+                    </form>
+                    <!-- separador -->
+                    <div class="separator">
+                        <div class="line"></div>
+                        <span>Ou</span>
+                    </div>
+                    <!-- links alternativos -->
+                    <div id="other-links">
+                        <div id="facebook-login">
+                            <a href="www.facebook.com">
+                                <img src="images/logo_facebook.svg" alt="logomarca do facebook">
+                                <span>Entrar com o facebook</span>
+                            </a>
+                        </div>
+                        <div id="forgot-password">
+                            <a href="#">Esqueceu a senha</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div id="register-container">
+                <p>Não tem uma conta <a href="#">Cadastre-se</a></p>
+            </div>
+            <div id="get-app-container">
+                <p>Obtenha o aplicativo</p>
+                <a href="#"><img src="images/botao_apple.png" alt="apple store"></a>
+                <a href="#"><img src="images/botao_google_play.png" alt="google play"></a>
+            </div>
+        </div>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <nav>
+            <ul id="footer-links">
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Ajuda</a></li>
+                <li><a href="#">Imprensa</a></li>
+                <li><a href="#">API</a></li>
+                <li><a href="#">Carreiras</a></li>
+                <li><a href="#">Privacidade</a></li>
+                <li><a href="#">Termos</a></li>
+                <li><a href="#">Localizações</a></li>
+                <li><a href="#">Contas mais relevantes</a></li>
+                <li><a href="#">Hashtags</a></li>
+                <li><a href="#">Idioma</a></li>
+
+            </ul>
+        </nav>
+        <p id="copyright">&copy; Instagram do Facebook</p>
+    </footer>
 </body>
 </html>
