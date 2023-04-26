@@ -17,6 +17,8 @@
     margin-top: 30px;
 }
 
+
+
 #banner-container, #form-container{
     flex: 1 1 0;
     width: 50%;
@@ -146,6 +148,7 @@
     border: 1px solid #DBDBDB;
     width: 350px;
     margin-top: 10px;
+    margin: 30px auto;
     padding: 25px;
   }
   
@@ -165,6 +168,7 @@
   #get-app-container {
     text-align: center;
     width: 350px;
+    margin: 30px auto;
   }
   
   #get-app-container p {
